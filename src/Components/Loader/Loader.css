@@ -1,0 +1,10 @@
+.loader{
+    margin-top: 5em;
+    width: 70vw;
+    /* height: 100%;    */
+}
+
+:root {
+    --x-offset: 50;
+    --em-value: 1em;
+}

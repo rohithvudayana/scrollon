@@ -1,0 +1,93 @@
+.app_main{
+  display: flex;
+  margin-top: 2em;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.floating_button{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  text-align: center;
+  cursor:pointer;
+  font-size: xx-large;
+  border-radius: 50%;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 2em;
+}
+
+.createpost{
+  font-size: x-large;
+  
+}
+
+.title_input{
+  background-color: #222222;
+  color: #d0d0d0;
+  border: none;
+  outline: none;
+  height: 20px;
+  font-size: larger;
+  padding: 0.5em 0.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tag_input{
+  background-image: linear-gradient(to right, #6DC7FF, #E6ABFF);
+  color: white;
+  border: none;
+  outline: none;
+  height: 20px;
+  border-radius: 20px;
+  width: 25%;
+  font-size: larger;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1em;
+}
+
+
+.body_input{
+  resize: none;
+  background-color: #222222;
+  color: #d0d0d0;
+  border: none;
+  outline: none;
+  font-size: medium;
+  padding: 0.5em 0.5em;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+
+.tag_input::placeholder{
+  color: white;
+}
+
+.title_input::placeholder, .body_input::placeholder{
+  color: #808080;
+  font-family: 'Poppins', sans-serif;
+}
+
+.createbutton{
+  display: flex;
+  margin-top: 1em;
+}
+
+.submit, .close{
+  margin: 0 0.5em 0 0.5em;
+  padding: 0.5em;
+  cursor: pointer;
+  border: solid 1px;
+}
