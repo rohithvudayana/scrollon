@@ -172,19 +172,6 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- CONTACT -->
-## Contact
-
-Name - [Juni](https://github.com/Junith-K)
-
-Portfolio: [https://portfolio-juni.vercel.app/](https://portfolio-juni.vercel.app/)
-
-LinkedIn: [Junith Kumar](https://www.linkedin.com/in/junithkumar/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
